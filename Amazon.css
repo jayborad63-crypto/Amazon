@@ -1,0 +1,454 @@
+/* Reset default padding and margin */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar container */
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #131921;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Main box for the top bar */
+.box1 {
+    height: 60px;
+    width: min-content;
+    display: flex;
+    padding-top: 9px;
+}
+
+/* Amazon logo */
+.amazon-logo {
+    height: 45px;
+    width: 100px;
+    padding-left: 0px;
+    padding-top: 10px;
+    object-fit: fill;
+}
+
+/* ".in" text */
+.in {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 13px;
+}
+
+/* Box containing location info */
+.box2 {
+    color: white;
+    text-align: center;
+}
+
+/* Flex container for location icon and text */
+.icon-a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/* Location icon */
+#icon-a1 {
+    color: #ccc;
+}
+
+/* Small location description */
+#t1 {
+    color: #ccc;
+    font-size: 0.80rem;
+    margin-left: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Location update text */
+#t2 {
+    font-size: 0.90rem; /* 20px */
+    margin-left: 5px;
+    font-weight: bolder;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#t21 {
+    font-size: 0.90rem; /* 20px */
+    margin-left: 17px;
+    font-weight: bolder;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav-ops{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.box3{
+    display: flex;
+}
+#select{
+    background-color: #e6e6e6;
+    color: #000000;
+    font-size: 0.80rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 52px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 3px 6px;
+    justify-content: center;
+    border: none;
+}
+.input{
+    background-color: #ffffff;
+    width: 550px;
+    height: 47.5px;
+    padding: 0px 0px;
+}
+#input{
+    width: 550px;
+    height: 47.5px;
+    border: none;
+    padding-bottom: 0px;
+    margin: 0%;
+    font-size: 15px;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.icon-b{
+    background-color: #febd69;
+    color: #000000;
+    width: 52px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 3px 6px;
+    justify-content: center;
+    border: none;
+}
+#icon-b1{
+    font-size: 25px;
+}
+#select2{
+    border: none;
+    background-color: #131921;
+    color: #ffffff;
+    display: flex;
+}
+.set{
+    display: flex;
+}
+#box-i{
+    color: white;
+    font-size: 35px;
+}
+.box6{
+    display: flex;
+}
+#t22 {
+    font-size: 0.90rem; /* 20px */
+    margin-top: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+
+
+/* this is nav-main (penal)*/
+
+.nav-main{
+    background-color: #232f3e;
+    height: 39px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.all{
+    display: flex;
+}
+.prime{
+    display: flex;
+}
+#icon-3{
+    font-size: 22px;
+}
+#all{
+    margin-top: 3px;
+    margin-left: 5px;
+}
+#prime{
+    border: none;
+    background-color: #232f3e;
+    color: white;
+}
+.hero-section {
+    background-image: url('amazonbg.png'); /* Your image here */
+    height: 600x;
+    width: 100%;
+    background-size: cover;       /* Cover full area */
+    background-position: center;  /* Center image */        /* So you can layer content */
+    color: white;                 /* Text color on image */
+  }
+  
+ /* Main footer */
+ .footer {
+    padding: 0%;
+    width: 100%;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    font-family: Arial, sans-serif;
+    background-color: #232f3e;
+    color: white;
+    justify-content: center;
+  }
+  
+  /* Content container with fixed width */
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 30px;
+   
+  }
+  #hr{
+    border-bottom: solid #ddd;
+    border-width: 0.001rem;
+  }
+
+  .footer-columns1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 0px;
+   justify-content: center;
+  }
+  
+  /* Individual column styling */
+  .footer-column1 {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    justify-content: center;
+  }
+  
+  .footer-column1 h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .footer-column1 a {
+    display: block;
+    margin: 4px 0;
+    font-size: 14px;
+    color: #ddd;
+    text-decoration: none;
+  }
+  
+  .footer-column1 a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Bottom section */
+  .footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+    margin: 15px 0px;
+  }
+  
+  .footer-logo img {
+    width: 90px;
+    height: 27px;
+    margin-right: 20px;
+    padding-top: 9px;
+  }
+  
+  .footer-language select {
+    margin: 5px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    background-color: #232f3e;
+    border: 1px solid #ddd;
+    border-width: 0.01rem;
+    color: white;
+    padding: 6px 6px 6px 6px;
+  }
+  .footer-container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+  }
+  #pic{
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+  .footer-container2 {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    background-color: #131921;
+    padding-top: 50px;
+  }
+  .footer-column2 {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-column2 h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .footer-column2 a {
+    display: block;
+    margin: 4px 0;
+    font-size: 14px;
+    color: #ddd;
+    text-decoration: none;
+  }
+  .footer-column2 a:hover {
+    text-decoration: none;
+  }
+  #tt {
+    color: #ccc;
+    font-size: 0.80rem;
+    margin-left: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.b{
+    width: 100%;
+    height: 50px;
+    background-color: #2f3e50;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+}
+.b:hover{
+    background-color: rgba(248, 246, 245, 0.158);
+}
+.mbox{
+    display: flex;
+    padding-top: 280px;
+    justify-content: space-evenly;
+    color: #0f1111;
+}
+.mbox5{
+  display: flex;
+  justify-content: space-evenly;
+  color: #0f1111;
+  padding: 30px 0px;
+}
+#mbox{
+    width: 300px;
+    height: 320px;
+    background-color: rgb(255, 255, 255);
+    display: unset;
+}
+#mbox img{
+  width: 300px;
+  height: 190px;
+  padding: 5px 10px;
+}
+
+h2{
+  font-size: 21px;
+  font-weight: 650;
+  line-height: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0f1111;
+  padding: 10px;
+}
+.main{
+    height: 1850px;
+    width: 100%;
+    background-color: #dbdada;
+}
+
+
+/* this is scoller br */
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  background-color: white;
+}
+.scroll-container2 {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  background-color: white;
+}
+.scroll-container3 {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  background-color: white;
+}
+
+.scroll-container img {
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+.scroll-container2 img {
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+.scroll-container3 img {
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+/* Optional: Hide scrollbar in Webkit browsers */
+.scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
